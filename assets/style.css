@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner {
+  background-color: darkblue;
+  color: white;
+  font-size: 2em;
+  margin: 0;
+  padding: 20px;
+}
+nav {
+  margin: 0;
+  background-color: lightblue;
+  display: flex;
+}
+.navBtn {
+  background-color: lightblue;
+  display: inline;
+  flex-direction: row;
+  padding-left: 20px;
+}
+.main {
+  display: flex;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+aside {
+  background-color: lightblue;
+  padding: 20px;
+  width: 30%;
+}
+img {
+  height: 200px;
+}
+footer {
+  background-color: lightcoral;
+}
